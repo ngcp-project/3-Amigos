@@ -27,7 +27,7 @@ async function login() {
       <label for="login-password">Password</label>
       <input type="password" id="login-password" v-model="password" />
     </div>
-    
+
     <button type="submit">Sign In</button>
   </form>
 

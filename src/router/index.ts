@@ -4,9 +4,9 @@ import Test from "../views/test.vue";
 import Login from "../views/login.vue";
 
 const routes = [
-  { path: "/", component: Main },
-  { path: "/test/", component: Test },
-  { path: "/login/", component: Login },
+  { path: "/", component: Main, name: "Main" },
+  { path: "/test/", component: Test, name: "Test" },
+  { path: "/login/", component: Login, name: "Login" },
 ];
 
 const router = createRouter({
